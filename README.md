@@ -1,8 +1,8 @@
  Student Performance Analysis – Exploratory Data Analysis (EDA)
+ 
  📌 Project Overview
 
 This project focuses on performing an in-depth Exploratory Data Analysis (EDA) on a Student Performance dataset using Python. The goal was to understand data structure, distribution patterns, relationships between variables, and prepare the dataset for future Machine Learning applications.
-
 EDA helps in identifying trends, detecting outliers, understanding feature relationships, and validating assumptions before model building.
 
 ## 📂 Dataset Information

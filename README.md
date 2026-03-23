@@ -1,125 +1,37 @@
-# 📊 Student Performance Analysis – Exploratory Data Analysis (EDA)
-
-## 📌 Project Overview
+ Student Performance Analysis – Exploratory Data Analysis (EDA)
+ 📌 Project Overview
 
 This project focuses on performing an in-depth Exploratory Data Analysis (EDA) on a Student Performance dataset using Python. The goal was to understand data structure, distribution patterns, relationships between variables, and prepare the dataset for future Machine Learning applications.
 
 EDA helps in identifying trends, detecting outliers, understanding feature relationships, and validating assumptions before model building.
 
-
 ## 📂 Dataset Information
 
 The dataset includes the following features:
 
-- gender
-- Maths_Score
-- science score
-- english score
-- StudyHoursPerDay
-- AttendanceRate
-- PreferredSubject
-
+gender | Maths_Score | science score | english score | StudyHoursPerDay | AttendanceRate | PreferredSubject
 
 ## 🛠 Tools & Libraries Used
 
-- Python
-- Pandas (Data manipulation)
-- NumPy (Numerical operations)
-- Matplotlib (Basic visualizations)
-- Seaborn (Advanced visualizations)
-- Plotly (3D Visualization)
-- Scikit-learn (Scaling techniques)
+Python |Pandas |NumPy | Matplotlib |Seaborn|Plotly |Scikit-learn 
 
-
-
-## 🔎 Steps Performed in This Project
-
-### 1️⃣ Data Cleaning
-- Loaded dataset using Pandas
-- Checked for missing values
-- Verified data type
-- 
-### 2️⃣ Descriptive Statistics
-
-Calculated:
-- Mean
-- Median
-- Mode
-- Skewness
-
-This helped in understanding:
-- Central tendency
-- Distribution symmetry
-- Potential skewed features
-
-### 📊 Key Observation:
-Most academic score variables show near-symmetric distribution, indicating balanced performance spread.
-
-
+## Visualizations
+MISSING VALUES HEATMAP
 ![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/740b1734a6a65ff1a0e474fee90eb0885e3a90b4/Missing_Values_Heatmap.jpg)
+SCORES BOXPLOT
 ![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/740b1734a6a65ff1a0e474fee90eb0885e3a90b4/Scores_Boxplot.png)
+GENDER DISTRIBUTION
 ![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/740b1734a6a65ff1a0e474fee90eb0885e3a90b4/Gender_Distribution.png)
+CORRELATION HEATMAP
 ![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/740b1734a6a65ff1a0e474fee90eb0885e3a90b4/Correlation_Heatmap.png)
-### 3️⃣ Distribution Analysis
-
-Used:
-- Histograms
-- Countplots (Gender Distribution)
-
-Purpose:
-- Understand frequency distribution
-- Check categorical balance
-- Visualize data spread
-
-
-### 4️⃣ Outlier Detection
-
-Used:
-- Boxplots
-
-Purpose:
-- Detect extreme values
-- Validate data consistency
-
-Result:
-No severe outliers affecting the dataset significantly.
-
-
-### 5️⃣ Correlation Analysis
-
-Generated:
-- Correlation Matrix Heatmap
-
-Key Insight:
-Strong positive correlation observed among:
-- Maths_Score
-- Science Score
-- English Score
-
-This indicates students performing well in one subject tend to perform well in others.
-
----
-
-### 6️⃣ Feature Scaling
-
-Applied:
-- StandardScaler
-- MinMaxScaler
-
-Purpose:
-- Normalize feature range
-- Prepare dataset for machine learning algorithms
-
-
-
-### 7️⃣ 3D Visualization
-
-Created 3D Scatter Plot using Plotly to visualize relationships between:
-- Maths Score
-- Science Score
-- English Score
-
-
+AVG SCORE BY SUBJECT
+![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/bb3e0b2d73c1735a22e79ea012f8d2df8b8dd9e2/Average_Score_by_Subject%20(1).jpeg)
+AVG SCORE BY GENDER
+![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/bb3e0b2d73c1735a22e79ea012f8d2df8b8dd9e2/Average_Scores_by_Gender.jpg)
+PERFORMANCE SEGMENTATION
+![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/bb3e0b2d73c1735a22e79ea012f8d2df8b8dd9e2/Performance_Segmentation.jpg)
+PREFERRED SUBJECT BY GENDER
+![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/bb3e0b2d73c1735a22e79ea012f8d2df8b8dd9e2/PreferredSubject_by_Gender%20(3).jpg)
 
 ## 📈 Key Insights
 

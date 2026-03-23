@@ -56,7 +56,7 @@ This helped in understanding:
 Most academic score variables show near-symmetric distribution, indicating balanced performance spread.
 
 
-![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/03f31cfbafb2dc7b202626c3aee7abbc4f8a12a2/3D_Scatter.html)
+![image alt(https://github.com/sakshiparadkar/StudentPerformanceEDA/blob/740b1734a6a65ff1a0e474fee90eb0885e3a90b4/Correlation_Heatmap.png)
 ### 3️⃣ Distribution Analysis
 
 Used:

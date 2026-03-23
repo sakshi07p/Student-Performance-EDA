@@ -56,7 +56,7 @@ This helped in understanding:
 Most academic score variables show near-symmetric distribution, indicating balanced performance spread.
 
 
-
+![image alt](https://github.com/sakshiparadkar/Student-Performance-EDA/blob/03f31cfbafb2dc7b202626c3aee7abbc4f8a12a2/3D_Scatter.html)
 ### 3️⃣ Distribution Analysis
 
 Used:
@@ -143,39 +143,6 @@ This project strengthened my understanding of:
 - Feature Engineering
 - Data Visualization
 - Data Preprocessing for ML
-
-▶️ How to Run This Project
-
-🔹 Option 1: Run on Google Colab (Recommended)
-
-Open the notebook file EDA1.ipynb
-
-Upload it to Google Colab
-
-Upload the dataset file StudentsPerformance_Final.csv
-
-Run each cell step by step
-
-🔹 Option 2: Run on Local Machine (Jupyter Notebook)
-
-Step 1: Clone the repository
-git clone https://github.com/sakshi07p/Student-Performance-EDA.git
-
-Step 2: Navigate to project folder
-cd Student-Performance-EDA
-
-Step 3: Install required libraries
-pip install pandas numpy matplotlib seaborn plotly scikit-learn
-
-Step 4: Run Jupyter Notebook
-jupyter notebook
-Then open:
-EDA1.ipynb
-
-
-
-
-
 
 
 
